@@ -10,6 +10,7 @@ export default class App extends React.Component {
         title="Github Page for Nicholas Latham"
       />
       {this.props.children}
+      <div>Created using <a href="https://facebook.github.io/react/">ReactJS</a></div>
     </div>);
   }
 }

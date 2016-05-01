@@ -20,12 +20,13 @@ var config = {
   devServer:{
     contentBase: '.',  //Relative directory for base of server
     devtool: 'eval',
-    hot: true,        //Live-reload
+    // hot: true,        //Live-reload
     inline: true,
     port: 3000        //Port Number
   },
   devtool: 'eval',
   output: {
+    publicPath: '/build/',
     path: buildPath,    //Path of output file
     filename: 'app.js'
   },

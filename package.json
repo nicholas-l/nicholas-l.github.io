@@ -28,7 +28,7 @@
     "react-router": "^2.0.0",
     "react-tap-event-plugin": "^0.2.2",
     "transfer-webpack-plugin": "^0.1.4",
-    "webpack": "^1.12.14"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
